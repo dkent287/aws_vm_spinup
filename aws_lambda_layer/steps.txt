@@ -1,0 +1,4 @@
+docker build -t paramiko-layer .
+docker create --name paramiko-layer-container paramiko-layer
+docker cp paramiko-layer-container:/opt/layer.zip .
+docker rm paramiko-layer-container
