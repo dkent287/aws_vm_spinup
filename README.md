@@ -1,4 +1,4 @@
-aws-vm-spin
+aws-vm-spinup
 
 This is a solution for spinning up resources on AWS to train a machine learning model, downloading the results and then terminating the various services needed to train the model.
 
